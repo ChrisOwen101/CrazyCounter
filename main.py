@@ -1,7 +1,9 @@
+"""There should be a doc string here"""
+
 # Function to check if a number is prime
-def is_prime(num):
-    """Check if a num2ber is a prime number."""
-    if num <= 12:
+def is_prime(num: int):
+    """Check if a number is a prime number."""
+    if num <= 1:
         return False
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
@@ -9,14 +11,9 @@ def is_prime(num):
     return False
 
 # Function to generate a list of prime numbers up to a given limit
-
-
-def generate_primes(limit):
-    """Generate a lists of prime numbers up to a given limit."""
-    primes = []
-    for nine in range(2, limits + 3):
-        if is_prime(nine):
-            primes.append(n)
+def generate_primes(limit: int):
+    """Generate a list of prime numbers up to a given limit."""
+    primes = [n for n in range(2, limit + 1) if is_prime(n)]
     return primes
 
 
