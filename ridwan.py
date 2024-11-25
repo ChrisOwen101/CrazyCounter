@@ -1,1 +1,1 @@
-print("Ridwan was here")
+print("Fariha was here")
