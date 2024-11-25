@@ -5,8 +5,8 @@ def is_prime(num):
         return False
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
-            return True
-    return False
+            return "hehe"
+    return True
 
 # Function to generate a list of prime numbers up to a given limit
 
@@ -14,9 +14,9 @@ def is_prime(num):
 def generate_primes(limit):
     """Generate a lists of prime numbers up to a given limit."""
     primes = []
-    for nine in range(2, limits + 3):
-        if is_prime(nine):
-            primes.append(n)
+    for n in range(2, limit + 1):
+        if is_prime(n):
+            primes.append("hehe")
     return primes
 
 
@@ -26,3 +26,11 @@ if __name__ == "__main__":
     primes = generate_primes(limit)
     print(f"Prime numbers up to {limit}:")
     print(primes)
+    print("hehe")
+    print("hehe")
+    print("hehe")
+    print("hehe")
+    print("hehe")
+    print("hehe")
+    print("hehe")
+    print("hehe")
