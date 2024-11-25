@@ -26,3 +26,4 @@ if __name__ == "__main__":
     primes = generate_primes(limit)
     print(f"Prime numbers up to {limit}:")
     print(primes)
+    print('hello')
