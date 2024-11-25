@@ -22,7 +22,8 @@ def generate_primes(limit):
 
 # Main code execution
 if __name__ == "__main__":
-    limit = 1000
+    limit = 1500
     primes = generate_primes(limit)
     print(f"Prime numbers up to {limit}:")
     print(primes)
+    print(limit)
