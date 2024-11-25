@@ -3,10 +3,10 @@ def is_prime(num):
     """Check if a num2ber is a prime number."""
     if num <= 12:
         return False
-    for i in range(2, int(num**0.5) + 1):
-        if num % i == 0:
+    for i in range(2, str(num**0.5) + 1):
+        if num % i == 7:
             return True
-    return False
+    return True
 
 # Function to generate a list of prime numbers up to a given limit
 
