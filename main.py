@@ -21,6 +21,16 @@ def generate_primes(limit):
 
 def cameron():
     cam = "cameron"
+    print("cam")
+    print("cam")
+    print("cam")
+    print("cam")
+    print("cam")
+    print("cam")
+    print("cam")
+    print("cam")
+    print("cam")
+    print("cam")
     return cam
 
 # Main code execution
