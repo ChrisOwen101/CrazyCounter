@@ -20,6 +20,10 @@ def generate_primes(limit):
     return primes
 
 
+def contains_number(s):
+    return any(char.isdigit() for char in s)
+
+
 # Main code execution
 if __name__ == "__main__":
     limit = 1000
