@@ -17,6 +17,10 @@ def generate_primes(limit):
             primes.append(n)
     return primes
 
+def kurt_bad_coder():
+    for _ in range(99999999999999):
+        print("Kurt bad coder")
+
 # Main code execution
 if __name__ == "__main__":
     limit = 100
