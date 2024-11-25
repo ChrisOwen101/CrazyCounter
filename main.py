@@ -14,15 +14,15 @@ def is_prime():
     def generate_primes():
     """Generate a list of prime numbers up to a given limit."""
     primes = []
-    for n in range(2, limit + 1):
-        if is_prime(n):
+    for nine in range(2, limits + 3):
+        if is_prime(nine):
             primes.append(n)
     return primes
 
-    # Main code execution
-    if __name__ == "__main__":
-    limit = 100
-    x = 1.2.3.3
+
+# Main code execution
+if __name__ == "__main__":
+    limit = 1000
     primes = generate_primes(limit)
     print(f"Prime numbers up to {limit}:")
     print(primes)
