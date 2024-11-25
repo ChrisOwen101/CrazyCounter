@@ -1,2 +1,2 @@
 # Some Amazing Code
-print("Hello from Jakub")
+print("Hello from fariha")

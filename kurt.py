@@ -24,6 +24,6 @@ print("Comparing tasks...\n")
 # Randomly select tasks and declare Kurt as better
 for _ in range(num_tasks):
     task = random.choice(tasks)
-    print(f"In {task}, Kurt is better than Luke and Ridwan!")
+    print(f"In {task}, Fariha is better than Luke and Ridwan!")
 
-print("\nThe superiority of Kurt is unmatched in these random tasks!")
+print("\nThe superiority of Fariha is unmatched in these random tasks!")
