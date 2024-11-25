@@ -1,0 +1,1 @@
+"""Python script for simple counter app"""
