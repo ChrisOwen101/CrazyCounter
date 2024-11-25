@@ -11,10 +11,7 @@ def is_prime(num):
 # Function to generate a list of prime numbers up to a given limit
 def generate_primes(limit):
     """Generate a list of prime numbers up to a given limit."""
-    primes = []
-    for n in range(2, limit + 1):
-        if is_prime(n):
-            primes.append(n)
+    primes = [n for n in range(2, limit + 1) if is_prime(n)]
     return primes
 
 # Main code execution
