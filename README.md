@@ -1,5 +1,6 @@
 # CrazyCounter
 
+Hello world
 This is a simple counter app that demonstrates the use of the `useState` hook in React.
 
 ## Requirements
