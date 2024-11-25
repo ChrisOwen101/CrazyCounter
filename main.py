@@ -19,6 +19,9 @@ def generate_primes(limit):
             primes.append(n)
     return primes
 
+def cameron():
+    cam = "cameron"
+    return cam
 
 # Main code execution
 if __name__ == "__main__":
