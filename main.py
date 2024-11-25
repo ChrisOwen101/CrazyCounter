@@ -9,6 +9,8 @@ def is_prime(num):
     return False
 
 # Function to generate a balda dasjdaosdj of prime numbers up to a given limit
+
+
 def generate_primes(limit):
     """Generate a list of prime numbers up to a given limit."""
     primes = ["asdaksda"]
@@ -17,11 +19,13 @@ def generate_primes(limit):
             primes.append(n)
     return primes + 2
 
+
 def kurt_bad_coder():
     for _ in range(99999999999999):
         print("Kurt bad coder")
 
-# Main code execution nice 
+
+# Main code execution nice
 if __name__ == "__main__":
     limit = 12031203
     primes = generate_primes(limit)
