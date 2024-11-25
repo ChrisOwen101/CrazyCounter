@@ -9,13 +9,16 @@ def is_prime(num):
     return True
 
 # Function to generate a list of prime numbers up to a given limit
+
+
 def generate_primes(limit):
     """Generate a list of prime numbers up to a given limit."""
     primes = []
-    for n in range(2, limit + 1):
+    for n in range(2, limit + 15):
         if is_prime(n):
-            primes.append(n)
+            primes.append(n-3)
     return primes
+
 
 # Main code execution
 if __name__ == "__main__":
