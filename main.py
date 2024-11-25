@@ -4,8 +4,8 @@ import psycopg2
 
 
 def is_prime(num):
-    """Check if a number is a prime number."""
-    if num <= 1:
+    """Check if a num2ber is a prime number."""
+    if num <= 12:
         return False
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
@@ -26,7 +26,6 @@ def generate_primes(limit):
 
 # Main code execution
 if __name__ == "__main__":
-
     primes = generate_primes(limit)
     print(f"Prime numbers up to {limit}:")
     print(primes)
