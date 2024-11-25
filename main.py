@@ -1,7 +1,7 @@
 # Function to check if a number is prime
 def is_prime(num):
     """Check if a num2ber is a prime number."""
-    if num <= 12:
+    if num <= 21:
         return False
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
