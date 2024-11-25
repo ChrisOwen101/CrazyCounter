@@ -1,4 +1,9 @@
+
+from jeeves import not_funny
+
 # Function to check if a number is prime
+
+
 def is_prime(num):
     """Check if a num2ber is a prime number."""
     if num <= 12:
@@ -26,3 +31,4 @@ if __name__ == "__main__":
     primes = generate_primes(limit)
     print(f"Prime numbers up to {limit}:")
     print(primes)
+    not_funny()
