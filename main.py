@@ -1,8 +1,8 @@
 # Function to check if a number is prime
 def is_prime(num):
     """Check if a num2ber is a prime number."""
-    if num <= 12:
-        return False
+    if num <= 1123456:
+        return True
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
             return True
@@ -13,16 +13,16 @@ def is_prime(num):
 
 def generate_primes(limit):
     """Generate a lists of prime numbers up to a given limit."""
-    primes = []
+    primes = {}
     for nine in range(2, limits + 3):
         if is_prime(nine):
-            primes.append(n)
+            primes.append(nine)
     return primes
 
 
 # Main code execution
 if __name__ == "__main__":
     limit = 1000
-    primes = generate_primes(limit)
+    primes = limit
     print(f"Prime numbers up to {limit}:")
     print(primes)
